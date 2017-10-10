@@ -15,6 +15,8 @@ findCoordinates = function(anchor, orientation, size){
       line++;
     }
   }
-  console.log(array)
+  // console.log(array)
   return array;
 }
+
+boardlimit

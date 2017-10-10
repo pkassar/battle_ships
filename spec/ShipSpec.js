@@ -16,7 +16,5 @@ describe('Ship', function() {
     expect(ship.position).toEqual(['B2', 'B3', 'B4', 'B5']);
   })
 
-  it('size of our board',function(){
-    expect( function() {new Ship ('K1', 'v', 3)}).toThrow(new Error('Ship outside the board'))
-  })
+
 })
