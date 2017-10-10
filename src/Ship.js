@@ -18,5 +18,3 @@ findCoordinates = function(anchor, orientation, size){
   // console.log(array)
   return array;
 }
-
-boardlimit
