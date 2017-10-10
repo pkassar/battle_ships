@@ -10,4 +10,9 @@ describe('Ship', function() {
     ship = new Ship('B2', 'h', 4);
     expect(ship.position).toEqual(['B2', 'C2', 'D2', 'E2']);
   })
+
+  it('creates 1x4 ship', function(){
+    ship = new Ship('B2', 'v', 4);
+    expect(ship.position).toEqual(['B2', 'B3', 'B4', 'B5']);
+  })
 })
