@@ -1,8 +1,13 @@
 describe('Ship', function() {
   var ship
 
-  it('exists', function(){
+  it('creates 3x1 ship', function(){
     ship = new Ship('A1', 'h', 3);
-    expect(ship.position).toEqual(['A1','B1','C1']);
+    expect(ship.position).toEqual(['A1', 'B1', 'C1']);
+  })
+
+  it('creates 4x1 ship', function(){
+    ship = new Ship('B2', 'h', 4);
+    expect(ship.position).toEqual(['B2', 'C2', 'D2', 'E2']);
   })
 })
